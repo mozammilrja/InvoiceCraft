@@ -95,7 +95,6 @@ export async function createInvoice(prevState: any, formData: FormData) {
 
   return redirect("/dashboard/invoices");
 }
-
 export async function editInvoice(prevState: any, formData: FormData) {
   const session = await requireUser();
 
